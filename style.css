@@ -1,0 +1,47 @@
+.g-body{
+    background-color: lightgreen;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+
+.b-body{
+    background-color: black !important;
+    padding: 7px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 5px 1px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    resize: vertical;
+  }
+
+input[type=email], select, textarea {
+    width: 80%;
+    padding: 5px 1px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=button], select, textarea {
+    padding: 6px 15px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label{
+    color: white;
+  }
